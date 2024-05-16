@@ -1,0 +1,30 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+table{
+
+  margin: 20px;
+  width: 50%;
+}
+
+tr td{
+
+  padding: 10px;
+}
+
+.deleteBtn{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
