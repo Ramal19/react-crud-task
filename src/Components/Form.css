@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.tableTwo{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 97%;
+    margin-top: -20px;
+    margin-left: 20px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.tableTwo td{
+
+    width: 93px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}

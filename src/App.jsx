@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { useEffect } from 'react'
 import axios from 'axios'
+import Form from "./Components/Form"
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
   
 
   return (
-    <>
+    <div>
       <table border={2}>
           <thead>
               <tr>
@@ -49,10 +50,12 @@ function App() {
             }
           </tbody>
       </table>
-    </>
+      <Form/>
+    </div>
   )
 }
 
 export default App
+
 
 

@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
+
 table{
 
   margin: 20px;
-  width: 50%;
+  width: 97%;
 }
 
 tr td{
@@ -28,3 +29,5 @@ button{
   height: 30px;
   background-color: red;
 }
+
+
